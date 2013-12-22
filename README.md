@@ -1,5 +1,5 @@
 #Bandwidth 0.0.1
-_Test your bandwidth by downloading an image._
+_Test your bandwidth by downloading an image. Bigger image is more accurate._
 
 
 
