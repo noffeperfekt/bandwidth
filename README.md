@@ -1,6 +1,8 @@
-#Bandwidth 1.0.0
+#Bandwidth 0.0.1
 
 _Test your bandwidth by downloading an image._
+
+---
 
 ##Usage
 set attribute data-bandwidth="the-file-to-test-with.jpg"
@@ -11,7 +13,11 @@ Markup
 ```
 Script
 ```javascript
-$('img').bandwidth({callback:yourFunction})
+$('[data-bandwidth$=".jpg"]').bandwidth({callback:yourFunction});
+/* and/or */
+$('[data-bandwidth$=".jpg"]').on('bandwidth', function (event, bandwidthData){
+    // Do your stuff here
+});
 ```
 ##Options
 ```javascript
@@ -23,8 +29,20 @@ $('img').bandwidth({callback:yourFunction})
 
 ##Returns
 ```json
-{mbps: "9.92", kbps: "10159.90", bps: "10403741.94", duration: 0.062, bits: 645032}
+{
+    mbps: "9.92",
+    kbps: "10159.90",
+    bps: "10403741.94",
+    duration: 0.062,
+    bits: 645032
+}
 ```
+
+##Events
+When bandwith has foud out the speed, a 'bandwidth' event will be thrown.
+
+---
+
 ####If a _callback_ is defined
 Result JSON will be returned to that callback.
 

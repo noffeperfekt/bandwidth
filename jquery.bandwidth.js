@@ -1,14 +1,14 @@
 /*
- * Bandwith by Itera
- * @author kristofer @ itera dot com
- * @version 1.0.0.1
+ * Bandwith
+ * @author kristofer- @ bitbucket
+ * @version 0.0.1
  * @description Test your bandwidth by downloading an image.
  * @dependencies jQuery >2.0
  *
  * Usage:
  * set attribute data-bandwidth="yourfile.jpg"
  * check bandwidth:
- * $('img').bandwidth({callback:yourFunction});
+ * $('img').bandwidth();
  *
  * Options:
  * @param - args
@@ -18,7 +18,6 @@
  *  }
  */
 
-/* jsLint/Hint */
 /*globals jQuery*/
 /*jslint white: true, browser: true */
 (function ($) {
@@ -75,7 +74,7 @@
             result.bps = (result.bits / result.duration).toFixed(2);
             result.kbps = (result.bps / 1024).toFixed(2);
             result.mbps = (result.kbps / 1024).toFixed(2);
-            $(document).trigger('bandwidth',returnResult(result));
+            $(self).trigger('bandwidth',returnResult(result));
         }
         /* 3.
          * @description Runs when gotten file-size
