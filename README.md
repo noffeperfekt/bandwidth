@@ -1,5 +1,4 @@
 #Bandwidth 0.0.1
-
 _Test your bandwidth by downloading an image._
 
 ---
@@ -20,7 +19,7 @@ $('[data-bandwidth$=".jpg"]').on('bandwidth', function (event, bandwidthData){
 });
 ```
 ##Options
-```javascript
+```json
 {
     callback:   function,
     setImage:   true/false
