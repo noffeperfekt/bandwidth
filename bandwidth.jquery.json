@@ -1,0 +1,34 @@
+{
+    "name": "bandwidth",
+    "title": "jQuery Bandwidth",
+    "description": "jQuery plugin to test your bandwidth.",
+    "keywords": [
+        "network",
+        "bandwidth"
+    ],
+    "version": "0.0.1",
+    "author": {
+        "name": "Kristofer-",
+        "url": "https://github.com/kristofer-"
+    },
+    "maintainers": [
+        {
+            "name": "Kristofer-",
+            "url": "https://github.com/kristofer-",
+            "email": "kristofer_swe@yahoo.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": " Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
+            "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        }
+    ],
+    "bugs": "https://github.com/kristofer-/bandwidth/issues",
+    "homepage": "https://github.com/kristofer-/bandwidth",
+    "docs": "https://github.com/kristofer-/bandwidth",
+    "download": "http://code.jquery.com/#bandwidth",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
