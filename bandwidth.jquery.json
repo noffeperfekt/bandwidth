@@ -4,7 +4,9 @@
     "description": "jQuery plugin to test your bandwidth.",
     "keywords": [
         "network",
-        "bandwidth"
+        "bandwidth",
+        "ajax",
+        "responsive"
     ],
     "version": "0.0.1",
     "author": {
