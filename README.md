@@ -1,7 +1,7 @@
 #Bandwidth 0.0.1
 _Test your bandwidth by downloading an image._
 
----
+
 
 ##Usage
 set attribute data-bandwidth="the-file-to-test-with.jpg"
