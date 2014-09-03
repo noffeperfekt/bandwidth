@@ -45,7 +45,7 @@ When bandwith has foud out the speed, a 'bandwidth' event will be thrown.
 ###"THE BEER-WARE LICENSE" (Revision 43):
 <https://github.com/kristofer-> wrote this file. As long as you retain this notice you
 can do whatever you want with this stuff. If we meet some day, and you think
-this stuff is worth it, you can buy me a beer in return Kristofer
+this stuff is worth it, you can buy me a beer in return. /Kristofer
 
 ####If a _callback_ is defined
 Result JSON will be returned to that callback.
